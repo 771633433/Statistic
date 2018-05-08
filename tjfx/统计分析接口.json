@@ -1,0 +1,86 @@
+1、 历史数据量：ip:8481/statical/historyCount
+采集过车量 HIS_CL_COUNT
+采集过车上期对比 CL_CHANGE
+采集人脸数 HIS_RL_COUNT
+采集人脸上期对比 RL_CHANGE
+采集手机信息量 HIS_SJ_COUNT
+采集手机上期对比 SJ_CHANGE
+采集车底照片数 HIS_CD_COUNT
+采集车底照片上期对比 CD_CHANGE
+报警数 HIS_GJ_COUNT 
+报警上期对比 GJ_CHANGE
+{
+    "responseCode": "1000",
+    "message": "请求成功",
+    "content": {
+		"HIS_CL_COUNT":"54467",
+		"CL_CHANGE":"10%",
+		"HIS_RL_COUNT":"544671",
+		"RL_CHANGE":"21%",
+		"HIS_SJ_COUNT":"844671",
+		"SJ_CHANGE":"-5%",
+		"HIS_CD_COUNT":"54467",
+		"CD_CHANGE":"-5%",
+		"HIS_GJ_COUNT":"8671",
+		"GJ_CHANGE":"-5%"
+	},
+    "tag": null
+}
+
+2、 时间区间内の报警分类统计 ip:8481/statical/gjlbtj
+
+卡口人脸报警数 KKRLGJ_COUNT
+卡口人脸报警百分比 KKRLGJ_PERCENTAGE
+车辆报警数 CLGJ_COUNT
+车辆报警百分比 CLGJ_PERCENTAGE
+动态人脸报警数 DTRLGJ_COUNT
+动态人脸报警百分比 DTRLGJ_PERCENTAGE
+手机报警数 SJGJ_COUNT
+手机报警百分比 SJGJ_PERCENTAGE
+{
+    "responseCode": "1000",
+    "message": "请求成功",
+    "content": {
+		"KKRLGJ_COUNT":"100","KKRLGJ_PERCENTAGE":"25.0%","CLGJ_COUNT":"100","CLGJ_PERCENTAGE":"25.0%","DTRLGJ_COUNT":"100","DTRLGJ_PERCENTAGE":"25.0%","SJGJ_COUNT":"100","SJGJ_PERCENTAGE":"25.0%"
+	},
+    "tag": null
+}	
+
+3、 当日数据  ip:8481/statical/todaytj
+当日车辆数 TODAY_CL    select count(1) from t_dk_jgjl t where t.ddsj like sysdate
+当日人脸数 TODAY_RL
+当日报警数 TODAY_GJ
+{
+    "responseCode": "1000",
+    "message": "请求成功",
+    "content": {
+		"TODAY_CL":"555",    
+		"TODAY_RL":"1232",
+		"TODAY_GJ":"23"
+	},
+    "tag": null
+}
+
+4、 时间区间内 ip:8481/statical/selectDate
+日期 DATE
+每日车辆数 CLS	
+每日人脸数 RLS
+每日报警数 GJS
+
+一周数据（柱状图）：
+{
+    "responseCode": "1000",
+    "message": "请求成功",
+    "content": {
+        [
+        	{"DATE":"2018-04-24","CLS":"18741","RLS":"50000","GJS":"6656"},
+        	{"DATE":"2018-04-25","CLS":"10041","RLS":"22454","GJS":"333"},
+        	{"DATE":"2018-04-26","CLS":"17641","RLS":"234546","GJS":"999"},
+        	{"DATE":"2018-04-27","CLS":"13441","RLS":"123555","GJS":"302"},
+        	{"DATE":"2018-04-28","CLS":"15141","RLS":"33442","GJS":"401"},
+        	{"DATE":"2018-04-29","CLS":"13441","RLS":"43225","GJS":"43"},
+        	{"DATE":"2018-04-30","CLS":"20041","RLS":"322345","GJS":"99"}
+        ]
+    },
+    "tag": null
+}

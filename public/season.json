@@ -1,0 +1,25 @@
+{
+	"responseCode":1000,
+	"message":"success",
+	"content":{
+		"pageNum": 1,
+	    "pageSize": 10,
+	    "size": 0,
+	    "startRow": 0,
+	    "endRow": 0,
+	    "total": 0,
+	    "pages": 0,
+	    "history":{
+	    	"HIS_CL_COUNT":11234,
+	    	"CL_CHANGE":"13%",
+	    	"HIS_RL_COUNT":8976,
+	    	"RL_CHANGE":"5%",
+	    	"HIS_SJ_COUNT":12385,
+	    	"SJ_CHANGE":"9%",
+	    	"HIS_CD_COUNT":23464,
+	    	"CD_CHANGE":"13%",
+	    	"HIS_GJ_COUNT":8968,
+	    	"GJ_CHANGE":"11%"
+	    }
+	}
+}

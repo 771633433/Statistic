@@ -1,0 +1,141 @@
+
+
+.tjsj{
+	height: 150px;
+	border: 1px solid red;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+
+
+
+.five-box{
+	width: 100%;
+	height: 150px;
+	margin-left: 45px;
+	margin-top: 18px;
+	float: left;
+}
+
+.box{
+	width: 300px;
+	height: 150px;
+	float: left;
+	margin-right: 30px;
+	border-radius: 4px;
+	background: #fff;
+}
+
+/*	 采集过车辆	*/
+
+.cjgcl{
+	width: 116px;
+	height: 70px;
+	/*border: 1px solid blue;*/
+	float: left;
+	margin-top: 40px;
+	margin-left: 30px;
+}
+
+
+
+
+
+.amount{
+	width: 100%;
+	height: 30px;
+	float: left;
+	font-size: 28px;
+	color: #666666;
+	line-height: 30px;
+}
+
+.amount_name{
+	width: 100%;
+	height: 30px;
+	float: left;
+	margin-top: 20px;
+	font-size: 16px;
+	color: #999999;
+}
+
+
+.increase{
+	width: 134px;
+	height: 80px;
+	float: right;
+	margin-top: 40px;
+	margin-right: 20px;
+	/*border: 1px solid blue;*/
+
+}
+
+/*  统计数据右边的三个.  */
+.dot{
+	width: 100%;
+	height: 30px;
+	float: right;
+	/*border: 1px solid red;*/
+}
+
+
+.dott{
+	width: 6px;
+	height: 6px;
+	margin-top: 12px;
+	border-radius: 4px;
+	margin-right: 4px;
+	float: right;
+	background: #dde2e7;
+}
+
+
+.increase_icon{
+	width: 100%;
+	height: 30px;
+	float: right;
+	margin-top: 20px;
+	text-align: right;
+	/*border: 1px solid green;*/
+}
+
+/*  同比上期增长那几个字的框  */
+.compare{
+	width: 110px;
+	height: 30px;
+	float: right;
+	line-height: 30px;
+	color: #15d290;
+	text-align: center;
+	font-size: 12px;
+	/*border: 1px solid red;*/
+}
+
+/* 同比上期增加了 */
+.icon{
+	width: 12px;
+	height: 9px;
+	/*border: 1px solid blue;*/
+	margin-top: 10px;
+	float: left;
+	margin-left: 11px;
+	background: url('./assets/increase.png');
+}
+
+.icon_decrease{
+	width: 12px;
+	height: 9px;
+	margin-top: 10px;
+	float: left;
+	margin-left: 11px;
+	background: url('./assets/decrease.png');
+}
+
+
+
+
+
+
+
+

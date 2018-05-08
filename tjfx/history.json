@@ -1,0 +1,17 @@
+{
+    "responseCode": "1000",
+    "message": "请求成功",
+    "content": {
+		"HIS_CL_COUNT":"54467",
+		"CL_CHANGE":"10%",
+		"HIS_RL_COUNT":"544671",
+		"RL_CHANGE":"21%",
+		"HIS_SJ_COUNT":"844671",
+		"SJ_CHANGE":"-5%",
+		"HIS_CD_COUNT":"54467",
+		"CD_CHANGE":"-5%",
+		"HIS_GJ_COUNT":"8671",
+		"GJ_CHANGE":"-5%"
+	},
+    "tag": null
+}
